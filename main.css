@@ -1,0 +1,122 @@
+main {
+    background-image: url("images/back.png");
+    background-size: auto;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 5pt;
+}
+section {
+    padding: 15pt;
+    border-style: dotted;
+    margin:10pt;
+}    
+img {
+    border-radius:20%;
+    height:180pt;
+    width: 210pt;
+    margin: 10pt;
+    align-self: center;
+}
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    font-size: 24px;
+    font-family: 'Fredoka One', cursive;
+    transition: .3s ease-in-out;
+}  
+.types_of_dogs{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (max-width : 1750px) {
+    .dog{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 500px;
+        min-height: 400px;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width : 1200px) {
+    .module{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 500px;
+        min-height: 400px;
+        flex-basis: 80%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+    nav a{
+    }
+}
+        
+@media (max-width : 900px) {
+    .dog{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 350px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+}
+@media (max-width : 600px) {
+    header{
+        text-align: center;
+    }
+    .dog{
+        background-color: rgb(235, 226, 145);
+        border-radius: 10px;
+        min-width: 240px;
+        min-height: 400px;
+        flex-basis: 90%;
+        font-size: larger;
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+    }
+}
+.introduction{
+    background-color: rgb(231, 219, 211);
+    margin: 10pt;
+    border-radius: 10px;
+    border-style: dotted;
+}
+.dog{
+    background-color: rgb(239, 221, 198);
+        border-radius: 10px;
+        width: 20vw;
+        min-height: 300px;
+    
+        border-style: dotted;
+        margin:10pt;
+        padding: 10pt;
+        display: flex;
+        flex-direction: column;
+}
+.choose {
+    background-color: rgb(221, 210, 202);
+    margin: 10pt;
+    border-radius: 10px;
+    border-style: dotted;
+}
+.choose a {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
